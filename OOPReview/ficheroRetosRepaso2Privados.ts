@@ -1,0 +1,14 @@
+import {Mobile} from "./RetosRepaso2Privados";
+let nokia3210 : Mobile = new Mobile ("Nokia3210", "3210", "Nokia", "32 Gb", "gris", "no", 0, 65);
+let iphone3G : Mobile = new Mobile ("Iphone3G", "3G", "Apple", "32 Gb", "black", "no", 1, 115 );
+let galaxy10 : Mobile = new Mobile ("Samsung Galaxy 10", "Galaxy 10", "Samsung", "128 Gb", "black", "si", 5, 530);
+nokia3210.getPrint();
+iphone3G.getPrint();
+galaxy10.getPrint();
+nokia3210.setIs5G( "si" );
+nokia3210.setCamNum( 4 );
+console.log( nokia3210, iphone3G, galaxy10);
+let mobiless : Mobile [] = [nokia3210, iphone3G, galaxy10];
+mobiless[0].getPrint();
+mobiless[1].getPrint();
+mobiless[2].getPrint();

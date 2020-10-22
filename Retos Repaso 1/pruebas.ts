@@ -12,4 +12,4 @@ function nombresConM (nombres : string []) : Boolean {
     return todosConM;
 }
 // let result = nombres.filter (nombres => nombres[i][0] === "M");
-console.log (nombresConM (["Mauro", "Mariano", "Martin", "Miguel", "Moria", "Matman"]));
+console.log (nombresConM (["Batman", "Mauro", "Mariano", "Martin", "Miguel", "Moria", "Matman"]));
