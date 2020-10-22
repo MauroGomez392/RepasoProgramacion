@@ -67,8 +67,8 @@ export class Mobile {
     setPrice( newPrice : number) {
         this.price = newPrice;
     }
-    getPrint() {
-        console.log ("The characteristics of the mobile " + this.getName() + " are: \nName: " + this.getName() + "\nModel: " + this.getModel() + "\nTrademark: " + this.getTrademark() + "\nSD Size: " + this.getSdSize() + "\nColor: " + this.getColor() + "\nIs 5G?: " + this.getIs5G() + "\nNumber of Cameras: " + this.getCamNum());
+    getPrint() : string {
+        return "The characteristics of the mobile " + this.getName() + " are: \nName: " + this.getName() + "\nModel: " + this.getModel() + "\nTrademark: " + this.getTrademark() + "\nSD Size: " + this.getSdSize() + "\nColor: " + this.getColor() + "\nIs 5G?: " + this.getIs5G() + "\nNumber of Cameras: " + this.getCamNum();
     }
 
 }
