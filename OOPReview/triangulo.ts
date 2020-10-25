@@ -15,8 +15,3 @@ export class Triangulo {
         return longitud;
     }
 }
-let puntito1 : Punto = new Punto (19, 5);
-let puntito2 : Punto = new Punto (15, 20);
-let puntito3 : Punto = new Punto (30, 25);
-let tri : Triangulo = new Triangulo (puntito1, puntito2, puntito3);
-console.log( tri.calcularLongitudLados());
