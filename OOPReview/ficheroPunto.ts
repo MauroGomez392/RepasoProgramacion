@@ -1,0 +1,11 @@
+import {Punto} from "./Punto";
+let puntito : Punto = new Punto ( 50, 35 );
+console.log( puntito.getToStrig());
+console.log( puntito.getX());
+console.log( puntito.getY());
+puntito.setX( 20);
+puntito.setY( 50);
+console.log( puntito.getToStrig());
+console.log( puntito.getDistanciaAlOrigen());
+let puntito2 : Punto = new Punto ( 20, 20);
+console.log( puntito.getDistancia( puntito2));
